@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    position: absolute;
+    left:50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    height: 30rem;
+    width: 30rem;
+    
+}
+.center1{
+    background:linear-gradient(to bottom, #33ccff 11%, #ff99cc 78%);
+        ;
+        height: 5rem;
+        padding-top: 1rem;
+        padding-left: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+       border-radius: 0.85em;
+
+}
+.registration-form{
+
+    background-color:whitesmoke;
+    box-shadow: 4px 4px 8px #f6e2e2,-4px -4px 8px rgb(219, 206, 206);
+    height: 600px; 
+
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+input{
+    height: 1.9rem;
+    width: 12rem;
+    border-radius: 0.3rem;
+}
+label{
+    font-size: 1.5rem;
+}
+#first_name{ margin-top: 2rem;
+    margin-left: 2.3rem;
+}
+#last_name{
+    margin-left: 2.5rem;
+}
+#father_name{
+    margin-left: 0.5rem;
+}
+#male, #female{
+    height: 1rem;
+    font-size: 0.95rem;
+    width: 1rem;
+}
+#contact{
+  margin-left: 2.5rem;  
+}
+#button{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    background-color: aqua;
+    border-radius: 50%;
+    box-shadow: 4px ;
+}
